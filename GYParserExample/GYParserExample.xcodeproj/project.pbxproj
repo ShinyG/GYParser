@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2868933A1C8B3C1100188AD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286893391C8B3C1100188AD5 /* main.m */; };
+		2868934A1C8B3C8B00188AD5 /* NSObject+GYParse.h in Sources */ = {isa = PBXBuildFile; fileRef = 286893461C8B3C7B00188AD5 /* NSObject+GYParse.h */; };
+		2868934B1C8B3C8B00188AD5 /* NSObject+GYParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 286893471C8B3C7B00188AD5 /* NSObject+GYParse.m */; };
+		2868934C1C8B3C8B00188AD5 /* NSObject+GYPropertyList.h in Sources */ = {isa = PBXBuildFile; fileRef = 286893481C8B3C7B00188AD5 /* NSObject+GYPropertyList.h */; };
+		2868934D1C8B3C8B00188AD5 /* NSObject+GYPropertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 286893491C8B3C7B00188AD5 /* NSObject+GYPropertyList.m */; };
+		2868935C1C8B3DEC00188AD5 /* Food.h in Sources */ = {isa = PBXBuildFile; fileRef = 2868934F1C8B3CFC00188AD5 /* Food.h */; };
+		2868935D1C8B3DEC00188AD5 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 286893501C8B3CFC00188AD5 /* Food.m */; };
+		2868935E1C8B3DEC00188AD5 /* GoodsModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 286893511C8B3CFC00188AD5 /* GoodsModel.h */; };
+		2868935F1C8B3DEC00188AD5 /* GoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 286893521C8B3CFC00188AD5 /* GoodsModel.m */; };
+		286893601C8B3DEC00188AD5 /* Person.h in Sources */ = {isa = PBXBuildFile; fileRef = 286893531C8B3CFC00188AD5 /* Person.h */; };
+		286893611C8B3DEC00188AD5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 286893541C8B3CFC00188AD5 /* Person.m */; };
+		286893621C8B3DEC00188AD5 /* Pet.h in Sources */ = {isa = PBXBuildFile; fileRef = 286893551C8B3CFC00188AD5 /* Pet.h */; };
+		286893631C8B3DEC00188AD5 /* Pet.m in Sources */ = {isa = PBXBuildFile; fileRef = 286893561C8B3CFC00188AD5 /* Pet.m */; };
+		286893641C8B3DEC00188AD5 /* Skill.h in Sources */ = {isa = PBXBuildFile; fileRef = 286893571C8B3CFC00188AD5 /* Skill.h */; };
+		286893651C8B3DEC00188AD5 /* Skill.m in Sources */ = {isa = PBXBuildFile; fileRef = 286893581C8B3CFC00188AD5 /* Skill.m */; };
+		286893661C8B3DEC00188AD5 /* Transport.h in Sources */ = {isa = PBXBuildFile; fileRef = 286893591C8B3CFC00188AD5 /* Transport.h */; };
+		286893671C8B3DEC00188AD5 /* Transport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2868935A1C8B3CFC00188AD5 /* Transport.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		286893341C8B3C1100188AD5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		286893361C8B3C1100188AD5 /* GYParserExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GYParserExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		286893391C8B3C1100188AD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		286893461C8B3C7B00188AD5 /* NSObject+GYParse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+GYParse.h"; sourceTree = "<group>"; };
+		286893471C8B3C7B00188AD5 /* NSObject+GYParse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GYParse.m"; sourceTree = "<group>"; };
+		286893481C8B3C7B00188AD5 /* NSObject+GYPropertyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+GYPropertyList.h"; sourceTree = "<group>"; };
+		286893491C8B3C7B00188AD5 /* NSObject+GYPropertyList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GYPropertyList.m"; sourceTree = "<group>"; };
+		2868934F1C8B3CFC00188AD5 /* Food.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		286893501C8B3CFC00188AD5 /* Food.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		286893511C8B3CFC00188AD5 /* GoodsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsModel.h; sourceTree = "<group>"; };
+		286893521C8B3CFC00188AD5 /* GoodsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsModel.m; sourceTree = "<group>"; };
+		286893531C8B3CFC00188AD5 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		286893541C8B3CFC00188AD5 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		286893551C8B3CFC00188AD5 /* Pet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pet.h; sourceTree = "<group>"; };
+		286893561C8B3CFC00188AD5 /* Pet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pet.m; sourceTree = "<group>"; };
+		286893571C8B3CFC00188AD5 /* Skill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Skill.h; sourceTree = "<group>"; };
+		286893581C8B3CFC00188AD5 /* Skill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Skill.m; sourceTree = "<group>"; };
+		286893591C8B3CFC00188AD5 /* Transport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transport.h; sourceTree = "<group>"; };
+		2868935A1C8B3CFC00188AD5 /* Transport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transport.m; sourceTree = "<group>"; };
+		286893691C8B3E7900188AD5 /* List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = List.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		286893331C8B3C1100188AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2868932D1C8B3C1100188AD5 = {
+			isa = PBXGroup;
+			children = (
+				286893381C8B3C1100188AD5 /* GYParserExample */,
+				286893371C8B3C1100188AD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		286893371C8B3C1100188AD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				286893361C8B3C1100188AD5 /* GYParserExample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		286893381C8B3C1100188AD5 /* GYParserExample */ = {
+			isa = PBXGroup;
+			children = (
+				286893451C8B3C7B00188AD5 /* GYParser */,
+				2868934E1C8B3CFC00188AD5 /* Model */,
+				286893391C8B3C1100188AD5 /* main.m */,
+				286893691C8B3E7900188AD5 /* List.plist */,
+			);
+			path = GYParserExample;
+			sourceTree = "<group>";
+		};
+		286893451C8B3C7B00188AD5 /* GYParser */ = {
+			isa = PBXGroup;
+			children = (
+				286893461C8B3C7B00188AD5 /* NSObject+GYParse.h */,
+				286893471C8B3C7B00188AD5 /* NSObject+GYParse.m */,
+				286893481C8B3C7B00188AD5 /* NSObject+GYPropertyList.h */,
+				286893491C8B3C7B00188AD5 /* NSObject+GYPropertyList.m */,
+			);
+			name = GYParser;
+			path = ../../GYParser;
+			sourceTree = "<group>";
+		};
+		2868934E1C8B3CFC00188AD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2868934F1C8B3CFC00188AD5 /* Food.h */,
+				286893501C8B3CFC00188AD5 /* Food.m */,
+				286893511C8B3CFC00188AD5 /* GoodsModel.h */,
+				286893521C8B3CFC00188AD5 /* GoodsModel.m */,
+				286893531C8B3CFC00188AD5 /* Person.h */,
+				286893541C8B3CFC00188AD5 /* Person.m */,
+				286893551C8B3CFC00188AD5 /* Pet.h */,
+				286893561C8B3CFC00188AD5 /* Pet.m */,
+				286893571C8B3CFC00188AD5 /* Skill.h */,
+				286893581C8B3CFC00188AD5 /* Skill.m */,
+				286893591C8B3CFC00188AD5 /* Transport.h */,
+				2868935A1C8B3CFC00188AD5 /* Transport.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		286893351C8B3C1100188AD5 /* GYParserExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2868933D1C8B3C1100188AD5 /* Build configuration list for PBXNativeTarget "GYParserExample" */;
+			buildPhases = (
+				286893321C8B3C1100188AD5 /* Sources */,
+				286893331C8B3C1100188AD5 /* Frameworks */,
+				286893341C8B3C1100188AD5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYParserExample;
+			productName = GYParserExample;
+			productReference = 286893361C8B3C1100188AD5 /* GYParserExample */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2868932E1C8B3C1100188AD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "高言";
+				TargetAttributes = {
+					286893351C8B3C1100188AD5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 286893311C8B3C1100188AD5 /* Build configuration list for PBXProject "GYParserExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2868932D1C8B3C1100188AD5;
+			productRefGroup = 286893371C8B3C1100188AD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				286893351C8B3C1100188AD5 /* GYParserExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286893321C8B3C1100188AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2868935C1C8B3DEC00188AD5 /* Food.h in Sources */,
+				2868935D1C8B3DEC00188AD5 /* Food.m in Sources */,
+				2868935E1C8B3DEC00188AD5 /* GoodsModel.h in Sources */,
+				2868935F1C8B3DEC00188AD5 /* GoodsModel.m in Sources */,
+				286893601C8B3DEC00188AD5 /* Person.h in Sources */,
+				286893611C8B3DEC00188AD5 /* Person.m in Sources */,
+				286893621C8B3DEC00188AD5 /* Pet.h in Sources */,
+				286893631C8B3DEC00188AD5 /* Pet.m in Sources */,
+				286893641C8B3DEC00188AD5 /* Skill.h in Sources */,
+				286893651C8B3DEC00188AD5 /* Skill.m in Sources */,
+				286893661C8B3DEC00188AD5 /* Transport.h in Sources */,
+				286893671C8B3DEC00188AD5 /* Transport.m in Sources */,
+				2868934A1C8B3C8B00188AD5 /* NSObject+GYParse.h in Sources */,
+				2868934B1C8B3C8B00188AD5 /* NSObject+GYParse.m in Sources */,
+				2868934C1C8B3C8B00188AD5 /* NSObject+GYPropertyList.h in Sources */,
+				2868934D1C8B3C8B00188AD5 /* NSObject+GYPropertyList.m in Sources */,
+				2868933A1C8B3C1100188AD5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2868933B1C8B3C1100188AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2868933C1C8B3C1100188AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2868933E1C8B3C1100188AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2868933F1C8B3C1100188AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		286893311C8B3C1100188AD5 /* Build configuration list for PBXProject "GYParserExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2868933B1C8B3C1100188AD5 /* Debug */,
+				2868933C1C8B3C1100188AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2868933D1C8B3C1100188AD5 /* Build configuration list for PBXNativeTarget "GYParserExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2868933E1C8B3C1100188AD5 /* Debug */,
+				2868933F1C8B3C1100188AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2868932E1C8B3C1100188AD5 /* Project object */;
+}
