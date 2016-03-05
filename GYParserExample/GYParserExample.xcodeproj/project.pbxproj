@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281566051C8B48A7007353AB /* List.plist in Sources */ = {isa = PBXBuildFile; fileRef = 286893691C8B3E7900188AD5 /* List.plist */; };
 		2868933A1C8B3C1100188AD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286893391C8B3C1100188AD5 /* main.m */; };
 		2868934A1C8B3C8B00188AD5 /* NSObject+GYParse.h in Sources */ = {isa = PBXBuildFile; fileRef = 286893461C8B3C7B00188AD5 /* NSObject+GYParse.h */; };
 		2868934B1C8B3C8B00188AD5 /* NSObject+GYParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 286893471C8B3C7B00188AD5 /* NSObject+GYParse.m */; };
@@ -185,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281566051C8B48A7007353AB /* List.plist in Sources */,
 				2868935C1C8B3DEC00188AD5 /* Food.h in Sources */,
 				2868935D1C8B3DEC00188AD5 /* Food.m in Sources */,
 				2868935E1C8B3DEC00188AD5 /* GoodsModel.h in Sources */,
@@ -320,6 +322,7 @@
 				2868933F1C8B3C1100188AD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
