@@ -8,13 +8,13 @@
 
 ## 1.最简单的字典转模型
 ```objc
-   NSDictionary *dic1 = @{@"name":@"张三",@"age":@18,@"icon":@"icon.png",@"sex":@(Male)};
-   NSLog(@"1. %@",[Person gy_parseWithDic:dic1]);
+   		NSDictionary *dic1 = @{@"name":@"张三",@"age":@18,@"icon":@"icon.png",@"sex":@(Male)};
+   		NSLog(@"1. %@",[Person gy_parseWithDic:dic1]);
 ```
 
 ## 2.模型中有模型
 ```objc
-	        NSDictionary *dic2 = @{@"name":@"张三",@"age":@18,@"icon":@"icon.png",@"sex":@(Male),
+	    NSDictionary *dic2 = @{@"name":@"张三",@"age":@18,@"icon":@"icon.png",@"sex":@(Male),
                                @"pet" : @{@"name":@"旺财",@"age":@2,
                                           @"food":@{
                                                   @"name":@"fish"
